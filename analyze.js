@@ -75,7 +75,7 @@
 
     response.sort((a, b) => b.playtime_ms - a.playtime_ms)
     response.sort((a, b) => b.year - a.year)
-    await fs.writeFile(__dirname + "/export.json", JSON.stringify(response.filter(response => response.year === 2023.2024), null, 2), "utf8")
+    await fs.writeFile(__dirname + "/export.json",JSON.stringify(response, null, 2), "utf8")
 
 
     function millisToMinutesAndSeconds(millis) {
