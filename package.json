@@ -1,0 +1,12 @@
+{
+  "name": "spotify-extended-streaming-history-analyzer",
+  "version": "1.0.0",
+  "main": "analyze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
